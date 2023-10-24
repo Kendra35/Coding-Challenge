@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooter Lim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-content-container">
+        <div class="main-content">
+            <div class="header">
+                <img src="/logo.png" alt="">
+                <h1>Taking Booleaners from A to B</h1>
+                <div>
+                    <button>Prenota</button>
+                    <button>Termina Prenotazione</button>
+                    <button>Accendi Luci</button>
+                </div>
+            </div>
+            <div class="body">
+                <div class="monopattino">
+                    <input type="checkbox">
+                    <span class="titolo">Monopattino Gino22</span> <br>
+                    <span>&#10132; Via Guadalametri - a 220 metri da te</span> <br>
+                    <span>Stato carica:</span>
+                    <div></div> 
+                </div>
+                <div class="monopattino">
+                    <input type="checkbox">
+                    <span class="titolo">Monopattino Mike24</span> <br>
+                    <span>&#10132; Via Ricciardoni - a 420 metri da te</span><br>
+                    <span>Stato carica:</span>
+                    <div></div> 
+                </div>
+                <div class="monopattino">
+                    <input type="checkbox">
+                    <span class="titolo">Monopattino Fede154</span> <br>
+                    <span>&#10132; Via Mentarini - a 490 metri da te</span><br>
+                    <span>Stato carica:</span>
+                    <div></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Salve, non so se sia giusto o meno farlo ma scriverò qui in commento il ragionamento che ho seguito per questa challenge. Prima di tutto ho optato per utilizzare dei div
+con classe header e body piuttosto che utilizzare le diciture <header> e <main> giusto perchè fa più ordire nella mia testa se è tutto all'interno di un elemento div. 
+All'interno del div .monopattino, ero confusa se utilizzare i <br> per andare a capo oppure usare dei paragrafi ma così mi sembrava più pulito. Anche la freccia &#10132; non 
+sapevo se inserirla come :before di quello specifico span ma in quel caso avrei dovuto o dargli una classe oppure selezionarlo in css con selettore, quindi ho optato per questa soluzione
+perchè ho pensato che fosse più semplice. Una cosa di cui mi rendo conto è che utilizzo molto, forse troppo il margine tra un elemento e l'altro, non so se sia giusto o meno, se sia meglio
+utilizzare il padding, o se potevo lasciare molte cose anche senza aggiungere margine, ma per gusto personale le cose appiccicate le une alle altre non mi piacciono. Ho cercato di utilizzare 
+il più possibile percentuali e unità di misura rem in modo che il progetto non cambiasse troppo in base alle dimensioni dello schermo. Per copiare i colori ho utilizzato eye dropper su google. 
+Ho cercato di trovare un font che sia simile al vostro perchè volevo che il risultato fosse il più simile possibile. In generale mi sono divertita, ho avuto solo una difficoltà iniziale
+nel mettere il margine tra il div .header e .main-content per questo alla fine ho optato per padding-top. Ciò che ho modificato nel mio modo di scrivere il codice è sicuramente evitare
+di dare una classe ed un id a tutto quello che volevo modificare ed invece utilizzare i selettori css più avanzati. Spero che il codice risulti più pulito così e vi ringrazio per 
+questa challenge! -->

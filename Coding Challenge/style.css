@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/background.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main-content-container {
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: 1% 19% 0 19%;
+    border-radius: 15px;
+}
+
+.main-content {
+    margin: 2rem 5rem;
+}
+
+.header {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.header > img {
+    width: 20%;
+}
+
+.header > h1 {
+    color: #00dd00;
+    margin-top: 0.5rem;
+}
+
+.header > div {
+    background-color: #00dd00;
+    padding: .8rem;
+    margin-top: .4rem;
+}
+
+.body {
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.monopattino {
+    margin: 2rem 0 ;
+}
+
+
+.titolo {
+    font-size: 1.4em;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+.monopattino > span {
+    line-height: 1.5rem;
+}
+
+
+.monopattino > div {
+    height: 22px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.monopattino:first-child > div {
+    background-color: #f5b453;
+    width: 28%;
+}
+
+.monopattino:nth-child(2) > div {
+    background-color: #00dd00;
+    width: 56%;
+}
+
+.monopattino:last-child > div {
+    background-color: #be4141;
+    width: 15%;
+}
